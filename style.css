@@ -1,6 +1,7 @@
 *{
   padding: 0px;
   margin:0px;  
+  box-sizing: border-box;
 }
 :root{
     --yellow: hsl(47, 88%, 63%);
@@ -14,6 +15,35 @@
     
 }
 body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--yellow);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 10px 10px var(--Black);
+    background-color: var(--White);
+}
 
-    background-color: orange;
+.ima{
+    border-radius: 10px;
+    width: 100%;
+}
+h3{
+    padding: 5px;
+    background-color: var(--yellow);
+}
+.learn >button {
+    margin-top: 15px;
+    border: none;
+    
 }
