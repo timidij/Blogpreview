@@ -32,7 +32,6 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    /* margin: auto; */
     border-radius: 10px;
     width: 375px;
     padding: 10px;
@@ -71,8 +70,6 @@ main{
     height: 70%;
     padding: 20px;
     width: 80%;
-    /* margin: 20%; */
-    /* justify-content: space-around; */
 }
 .peep{
     margin: 30px 0 30px 0;
